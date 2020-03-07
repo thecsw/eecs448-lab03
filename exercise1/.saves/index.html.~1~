@@ -1,0 +1,7 @@
+<body>
+  <input type="text" id="input1" placeholder="password">
+  <input type="text" id="input2" placeholder="verify">
+  <span>=</span>
+  <span id="result">-</span>
+  <script src="hw2.js"></script>
+</body>
