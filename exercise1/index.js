@@ -17,5 +17,5 @@ document.addEventListener("DOMContentLoaded",() => {
 	button.innerText = "VALIDATED";
     }
 
-    button.addEventListener('click', handler)
+    button.addEventListener('click', handler);
 });

@@ -5,15 +5,17 @@ document.addEventListener("DOMContentLoaded",() => {
 
     let image = 1;
     let num_of_images = 5;
+    
     next.addEventListener('click', (e) => {
 	image = (image + 1) % num_of_images;
 	show.src = "image-" + image + ".jpg";
 	return
-    })
+    });
+    
     prev.addEventListener('click', (e) => {
 	image = (image - 1) % num_of_images;
 	if (image === -1) image = num_of_images - 1;
 	show.src = "image-" + image + ".jpg";
 	return
-    })
+    });
 });
